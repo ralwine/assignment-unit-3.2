@@ -69,5 +69,9 @@ while (index < max) {
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+let countdown = 11;
 
-
+while (countdown > 5){
+  countdown--;
+  console.log(countdown);
+}
